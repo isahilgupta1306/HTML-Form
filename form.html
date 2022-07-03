@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    
+</head>
+<body>
+
+   
+    
+    <form>
+    <fieldset>
+        
+        <legend><center><h3><div id="heading">Student Registration Form for WebDev Bootcamp</div></h3></center></legend>
+
+       
+            <div id="initial">
+
+            
+                <p><strong>Fill up the following Details</strong></p><br>
+
+                <label><strong><font color="red">*</font> Name: &nbsp;</strong></label>
+                <input type="text" name="name" id="name" required><br><br>
+
+                <label><strong><font color="red">*</font> Email: &nbsp;</strong></label>
+                <input type="email" name="email" id="email" required><br><br>
+
+                <label><strong><font color="red">*</font> Age: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></label>
+                <input type="number" name="age" id="age" required><br><br>
+
+            </div>
+        
+
+       <div id="option">
+        <label><strong>Which year are you in ?:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></label>
+            <select>
+                <option >First Year</option>
+                <option >Second Year</option>
+                <option >Third Year</option>
+                <option >Final Year</option>
+                <option >Masters </option>
+                <option >Junior College </option>
+            </select>
+        </div>
+            
+        <div id="rec">
+            <label><strong><p>Any prior Experience ?</p>  </strong></label>
+        </div>
+
+        <div id="recAns">
+            <input type="radio" id="def" name="ans" value="Definitely">
+            <label for="def">Yes</label><br>
+            <input type="radio" id="no" name="ans" value="No">
+            <label for="no">No</label><br>
+            <input type="radio" id="maybe" name="ans" value="maybe">
+            <label for="maybe">Beginner</label>
+        </div>
+
+                
+        <br>
+        <br>
+        
+    
+    
+        <div id="things">
+        How do you got to know about this Bootcamp ? </strong></label>
+        </div>
+
+        <div id="chkoptions">
+
+            <input type="checkbox" name="chck" value="ma">
+            <label name="ma">Referred by a friend</label><br>
+            
+            <input type="checkbox" name="chck" value="pt">
+            <label name="pt">College Official Groups</label><br>
+            
+            <input type="checkbox" name="chck" value="dknow">
+            <label name="dk">LinkedIn</label>
+        
+       
+        </div>
+
+        <br>
+        <br>
+
+        <center><button type="button" class="button"><strong>Submit</strong></button></center>
+    
+        
+    </fieldset>
+
+    
+</form>
+    
+</body>
+</html>
